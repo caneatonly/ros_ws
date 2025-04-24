@@ -1,0 +1,1 @@
+Invoking command in '/mnt/ros_ws/build/simple_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/ros_ws/src/simple_launch -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/simple_launch

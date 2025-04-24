@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:16 (find_package):
+  By not providing "Findthruster_manager.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "thruster_manager", but CMake did not find one.
+
+  Could not find a package configuration file provided by "thruster_manager"
+  with any of the following names:
+
+    thruster_managerConfig.cmake
+    thruster_manager-config.cmake
+
+  Add the installation prefix of "thruster_manager" to CMAKE_PREFIX_PATH or
+  set "thruster_manager_DIR" to a directory containing one of the above
+  files.  If "thruster_manager" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

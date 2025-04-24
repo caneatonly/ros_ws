@@ -1,0 +1,1 @@
+Invoking command in '/mnt/ros_ws/build/thruster_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/ros_ws/src/thruster_manager -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/thruster_manager

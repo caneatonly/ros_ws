@@ -1,0 +1,9 @@
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/uninstall.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/bluerov2_control_uninstall.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/test.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/edit_cache.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/rebuild_cache.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/list_install_components.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/install.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/install/local.dir
+/mnt/ros_ws/build/bluerov2_control/CMakeFiles/install/strip.dir

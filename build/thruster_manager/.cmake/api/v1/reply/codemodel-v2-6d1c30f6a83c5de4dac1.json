@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1e69580e4ac2e3500733.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "thruster_manager",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "publish_wrenches::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publish_wrenches-7c796a89ea6fa1d3e946.json",
+					"name" : "publish_wrenches",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thruster_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thruster_manager-ecec9915c05916e2eaed.json",
+					"name" : "thruster_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thruster_manager_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thruster_manager_node-53757b6affd9c7ad2b90.json",
+					"name" : "thruster_manager_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "thruster_manager_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-thruster_manager_uninstall-a473224a1ac3c6287973.json",
+					"name" : "thruster_manager_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6254d7a093de3150399f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/ros_ws/build/thruster_manager",
+		"source" : "/mnt/ros_ws/src/thruster_manager"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

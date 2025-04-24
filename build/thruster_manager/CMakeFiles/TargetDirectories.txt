@@ -1,0 +1,12 @@
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/uninstall.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/thruster_manager_uninstall.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/thruster_manager.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/publish_wrenches.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/thruster_manager_node.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/test.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/edit_cache.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/rebuild_cache.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/list_install_components.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/install.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/install/local.dir
+/mnt/ros_ws/build/thruster_manager/CMakeFiles/install/strip.dir
