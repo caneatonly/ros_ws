@@ -10,7 +10,7 @@ class CmdPosePublisher(Node):
         qos = QoSProfile(depth=10)
         self.publisher_ = self.create_publisher(PoseStamped, '/bluerov2/cmd_pose', qos)
         # 定时器会在5秒后首次触发
-        self.timer = self.create_timer(5.0, self.publish_pose)
+        self.timer = self.create_timer(0.1, self.publish_pose)
 
     def publish_pose(self):
         msg = PoseStamped()

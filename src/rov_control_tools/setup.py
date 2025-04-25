@@ -10,6 +10,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        #加入launch文件
+        ('share/' + package_name + '/launch', ['launch/stepcmd_record_launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -21,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'cmd_publisher = rov_control_tools.cmd_publisher:main',
+            'data_logger = rov_control_tools.data_logger:main',
         ],
     },
 )
