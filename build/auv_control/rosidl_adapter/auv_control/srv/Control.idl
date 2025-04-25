@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from auv_control/srv/Control.srv
+// generated code does not contain a copyright notice
+
+
+module auv_control {
+  module srv {
+    module Control_Request_Constants {
+      const uint8 POSITION = 0;
+      const uint8 VELOCITY = 1;
+      const uint8 DEPTH = 2;
+    };
+    struct Control_Request {
+      uint8 mode;
+    };
+    struct Control_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

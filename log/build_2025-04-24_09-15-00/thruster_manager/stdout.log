@@ -1,0 +1,46 @@
+[35m[1mConsolidate compiler generated dependencies of target thruster_manager_node[0m
+[35m[1mConsolidate compiler generated dependencies of target thruster_manager[0m
+[ 28%] Built target thruster_manager_node
+[ 71%] Built target thruster_manager
+[35m[1mConsolidate compiler generated dependencies of target publish_wrenches[0m
+[100%] Built target publish_wrenches
+-- Install configuration: ""
+-- Installing: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/thruster_manager_node
+-- Set runtime path of "/mnt/ros_ws/install/thruster_manager/lib/thruster_manager/thruster_manager_node" to ""
+-- Installing: /mnt/ros_ws/install/thruster_manager/lib/libthruster_manager.so
+-- Set runtime path of "/mnt/ros_ws/install/thruster_manager/lib/libthruster_manager.so" to ""
+-- Installing: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/publish_wrenches
+-- Set runtime path of "/mnt/ros_ws/install/thruster_manager/lib/thruster_manager/publish_wrenches" to ""
+-- Installing: /mnt/ros_ws/install/thruster_manager/include
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager_node.h
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_link.h
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager.h
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/model_parser.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager_node.h
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_link.h
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager.h
+-- Installing: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/model_parser.h
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.sh
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.dsv
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/package_run_dependencies/thruster_manager
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/parent_prefix_path/thruster_manager
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.sh
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.dsv
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.sh
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.dsv
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.bash
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.sh
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.zsh
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.dsv
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.dsv
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/packages/thruster_manager
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/rclcpp_components/thruster_manager
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig.cmake
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig-version.cmake
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.xml

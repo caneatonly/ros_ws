@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "auv_control__py",
+		"source" : "/mnt/ros_ws/build/auv_control/auv_control__py"
+	}
+}

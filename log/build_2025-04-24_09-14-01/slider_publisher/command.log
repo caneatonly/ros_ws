@@ -1,0 +1,2 @@
+Invoking command in '/mnt/ros_ws/build/slider_publisher': /usr/bin/cmake /mnt/ros_ws/src/slider_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/slider_publisher
+Invoked command in '/mnt/ros_ws/build/slider_publisher' returned '1': /usr/bin/cmake /mnt/ros_ws/src/slider_publisher -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/slider_publisher

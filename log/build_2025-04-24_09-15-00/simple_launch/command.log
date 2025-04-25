@@ -1,0 +1,1 @@
+Invoking command in '/mnt/ros_ws/build/simple_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/simple_launch -- -j20 -l20

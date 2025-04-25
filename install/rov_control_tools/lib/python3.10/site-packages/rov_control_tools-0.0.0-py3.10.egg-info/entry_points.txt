@@ -1,0 +1,3 @@
+[console_scripts]
+cmd_publisher = rov_control_tools.cmd_publisher:main
+

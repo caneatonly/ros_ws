@@ -1,0 +1,656 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (bluerov2_description) JobQueued: {'identifier': 'bluerov2_description', 'dependencies': OrderedDict()}
+[0.000312] (pose_to_tf) JobQueued: {'identifier': 'pose_to_tf', 'dependencies': OrderedDict()}
+[0.000320] (simple_launch) JobQueued: {'identifier': 'simple_launch', 'dependencies': OrderedDict()}
+[0.000327] (thruster_manager) JobQueued: {'identifier': 'thruster_manager', 'dependencies': OrderedDict()}
+[0.000334] (auv_control) JobQueued: {'identifier': 'auv_control', 'dependencies': OrderedDict([('thruster_manager', '/mnt/ros_ws/install/thruster_manager')])}
+[0.000342] (bluerov2_control) JobQueued: {'identifier': 'bluerov2_control', 'dependencies': OrderedDict([('thruster_manager', '/mnt/ros_ws/install/thruster_manager'), ('auv_control', '/mnt/ros_ws/install/auv_control')])}
+[0.000356] (thruster_manager) JobStarted: {'identifier': 'thruster_manager'}
+[0.003612] (bluerov2_description) JobStarted: {'identifier': 'bluerov2_description'}
+[0.005308] (pose_to_tf) JobStarted: {'identifier': 'pose_to_tf'}
+[0.006960] (simple_launch) JobStarted: {'identifier': 'simple_launch'}
+[0.009141] (thruster_manager) JobProgress: {'identifier': 'thruster_manager', 'progress': 'cmake'}
+[0.009373] (thruster_manager) JobProgress: {'identifier': 'thruster_manager', 'progress': 'build'}
+[0.009670] (thruster_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ros_ws/build/thruster_manager', '--', '-j20', '-l20'], 'cwd': '/mnt/ros_ws/build/thruster_manager', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/thruster_manager'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.010623] (bluerov2_description) JobProgress: {'identifier': 'bluerov2_description', 'progress': 'cmake'}
+[0.010798] (bluerov2_description) JobProgress: {'identifier': 'bluerov2_description', 'progress': 'build'}
+[0.010931] (bluerov2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ros_ws/build/bluerov2_description', '--', '-j20', '-l20'], 'cwd': '/mnt/ros_ws/build/bluerov2_description', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/bluerov2_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.011449] (pose_to_tf) JobProgress: {'identifier': 'pose_to_tf', 'progress': 'cmake'}
+[0.011860] (pose_to_tf) JobProgress: {'identifier': 'pose_to_tf', 'progress': 'build'}
+[0.012017] (pose_to_tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ros_ws/build/pose_to_tf', '--', '-j20', '-l20'], 'cwd': '/mnt/ros_ws/build/pose_to_tf', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/pose_to_tf'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.014683] (simple_launch) JobProgress: {'identifier': 'simple_launch', 'progress': 'cmake'}
+[0.014883] (simple_launch) JobProgress: {'identifier': 'simple_launch', 'progress': 'build'}
+[0.015041] (simple_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ros_ws/build/simple_launch', '--', '-j20', '-l20'], 'cwd': '/mnt/ros_ws/build/simple_launch', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/simple_launch'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.034761] (bluerov2_description) CommandEnded: {'returncode': 0}
+[0.035318] (bluerov2_description) JobProgress: {'identifier': 'bluerov2_description', 'progress': 'install'}
+[0.041920] (bluerov2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/ros_ws/build/bluerov2_description'], 'cwd': '/mnt/ros_ws/build/bluerov2_description', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/bluerov2_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.042938] (thruster_manager) StdoutLine: {'line': b'[ 28%] Built target thruster_manager_node\n'}
+[0.046075] (bluerov2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.046187] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/environment/resource_paths.dsv\n'}
+[0.046230] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/launch\n'}
+[0.046270] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/launch/upload_bluerov2_launch.py\n'}
+[0.046308] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/launch/manual.yaml\n'}
+[0.046345] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/launch/world_launch.py\n'}
+[0.046395] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/launch/state_publisher_launch.py\n'}
+[0.046487] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/meshes\n'}
+[0.046522] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/meshes/bluerov2_propcw.dae\n'}
+[0.046546] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/meshes/bluerov2_noprop.dae\n'}
+[0.046569] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/meshes/bluerov2_propccw.dae\n'}
+[0.046591] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/meshes/bluerov2_propcw.ive\n'}
+[0.046613] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/meshes/ping360_sonar.dae\n'}
+[0.046635] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/meshes/bluerov2_propccw.ive\n'}
+[0.046656] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf\n'}
+[0.046684] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/hydrodynamics.xacro\n'}
+[0.046711] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/demo_world.sdf\n'}
+[0.046733] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/thrusters.xacro\n'}
+[0.046754] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/bluerov2.xacro\n'}
+[0.046775] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/sensors.xacro\n'}
+[0.046806] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets\n'}
+[0.046828] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/camera_snippets.xacro\n'}
+[0.046854] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/dvl_snippets.xacro\n'}
+[0.046877] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/pose_3d_snippets.xacro\n'}
+[0.046900] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/common.urdf.xacro\n'}
+[0.046921] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/stereo_snippets.xacro\n'}
+[0.046942] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/gps_sensor_snippets.xacro\n'}
+[0.046963] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/magnetometer_snippets.xacro\n'}
+[0.046984] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/README.md\n'}
+[0.047005] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/all_sensor_snippets.xacro\n'}
+[0.047025] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/rpt_snippets.xacro\n'}
+[0.047085] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/imu_snippets.xacro\n'}
+[0.047107] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/pressure_snippets.xacro\n'}
+[0.047128] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/sonar_snippets.xacro\n'}
+[0.047149] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/urdf/snippets/chemical_concentration_snippets.xacro\n'}
+[0.047191] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/ament_index/resource_index/package_run_dependencies/bluerov2_description\n'}
+[0.047211] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/ament_index/resource_index/parent_prefix_path/bluerov2_description\n'}
+[0.047231] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/environment/ament_prefix_path.sh\n'}
+[0.047254] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/environment/ament_prefix_path.dsv\n'}
+[0.047274] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/environment/path.sh\n'}
+[0.047293] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/environment/path.dsv\n'}
+[0.047313] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/local_setup.bash\n'}
+[0.047332] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/local_setup.sh\n'}
+[0.047353] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/local_setup.zsh\n'}
+[0.047372] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/local_setup.dsv\n'}
+[0.047391] (bluerov2_description) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/package.dsv\n'}
+[0.047410] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/ament_index/resource_index/packages/bluerov2_description\n'}
+[0.047429] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/cmake/bluerov2_descriptionConfig.cmake\n'}
+[0.047447] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/cmake/bluerov2_descriptionConfig-version.cmake\n'}
+[0.047466] (bluerov2_description) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_description/share/bluerov2_description/package.xml\n'}
+[0.047490] (thruster_manager) StdoutLine: {'line': b'[ 71%] Built target thruster_manager\n'}
+[0.047942] (bluerov2_description) CommandEnded: {'returncode': 0}
+[0.049346] (pose_to_tf) StdoutLine: {'line': b'[ 50%] Built target pose_to_tf\n'}
+[0.049749] (pose_to_tf) StdoutLine: {'line': b'[100%] Built target pose_with_covariance\n'}
+[0.049980] (simple_launch) StdoutLine: {'line': b'Built target ament_cmake_python_copy_simple_launch\n'}
+[0.061459] (bluerov2_description) JobEnded: {'identifier': 'bluerov2_description', 'rc': 0}
+[0.061955] (pose_to_tf) CommandEnded: {'returncode': 0}
+[0.062506] (pose_to_tf) JobProgress: {'identifier': 'pose_to_tf', 'progress': 'install'}
+[0.062623] (pose_to_tf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/ros_ws/build/pose_to_tf'], 'cwd': '/mnt/ros_ws/build/pose_to_tf', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/pose_to_tf'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.062909] (thruster_manager) StdoutLine: {'line': b'[100%] Built target publish_wrenches\n'}
+[0.065703] (pose_to_tf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.065791] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/params\n'}
+[0.065850] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/params/ekf.yaml\n'}
+[0.065942] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/lib/pose_to_tf/pose_to_tf\n'}
+[0.066200] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/lib/pose_to_tf/pose_with_covariance\n'}
+[0.066345] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/ament_index/resource_index/package_run_dependencies/pose_to_tf\n'}
+[0.066383] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/ament_index/resource_index/parent_prefix_path/pose_to_tf\n'}
+[0.066428] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/environment/ament_prefix_path.sh\n'}
+[0.066477] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/environment/ament_prefix_path.dsv\n'}
+[0.066521] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/environment/path.sh\n'}
+[0.066557] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/environment/path.dsv\n'}
+[0.066592] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/local_setup.bash\n'}
+[0.066627] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/local_setup.sh\n'}
+[0.066674] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/local_setup.zsh\n'}
+[0.066711] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/local_setup.dsv\n'}
+[0.066748] (pose_to_tf) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/package.dsv\n'}
+[0.066915] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/ament_index/resource_index/packages/pose_to_tf\n'}
+[0.066952] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.066989] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/cmake/pose_to_tfConfig.cmake\n'}
+[0.067026] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/cmake/pose_to_tfConfig-version.cmake\n'}
+[0.067057] (pose_to_tf) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/pose_to_tf/share/pose_to_tf/package.xml\n'}
+[0.067960] (pose_to_tf) CommandEnded: {'returncode': 0}
+[0.075496] (pose_to_tf) JobEnded: {'identifier': 'pose_to_tf', 'rc': 0}
+[0.075974] (thruster_manager) CommandEnded: {'returncode': 0}
+[0.076527] (thruster_manager) JobProgress: {'identifier': 'thruster_manager', 'progress': 'install'}
+[0.076606] (thruster_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/ros_ws/build/thruster_manager'], 'cwd': '/mnt/ros_ws/build/thruster_manager', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/thruster_manager'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.080783] (thruster_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.080887] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/thruster_manager_node\n'}
+[0.080977] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/libthruster_manager.so\n'}
+[0.081087] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/publish_wrenches\n'}
+[0.081161] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include\n'}
+[0.081244] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager\n'}
+[0.081323] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager_node.h\n'}
+[0.081403] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_link.h\n'}
+[0.081494] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager.h\n'}
+[0.081577] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/model_parser.h\n'}
+[0.081630] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager\n'}
+[0.081707] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager\n'}
+[0.081784] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager_node.h\n'}
+[0.081838] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_link.h\n'}
+[0.081890] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager.h\n'}
+[0.081941] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/model_parser.h\n'}
+[0.081993] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.sh\n'}
+[0.082044] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.dsv\n'}
+[0.082095] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/package_run_dependencies/thruster_manager\n'}
+[0.082146] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/parent_prefix_path/thruster_manager\n'}
+[0.082197] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.sh\n'}
+[0.082252] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.dsv\n'}
+[0.082307] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.sh\n'}
+[0.082423] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.dsv\n'}
+[0.082484] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.bash\n'}
+[0.082792] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.sh\n'}
+[0.083085] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.zsh\n'}
+[0.083169] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.dsv\n'}
+[0.083254] (thruster_manager) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.dsv\n'}
+[0.083349] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/packages/thruster_manager\n'}
+[0.083446] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/rclcpp_components/thruster_manager\n'}
+[0.083566] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.083675] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.083749] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.083826] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig.cmake\n'}
+[0.083897] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig-version.cmake\n'}
+[0.083966] (thruster_manager) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.xml\n'}
+[0.084031] (thruster_manager) CommandEnded: {'returncode': 0}
+[0.089905] (thruster_manager) JobEnded: {'identifier': 'thruster_manager', 'rc': 0}
+[0.090376] (auv_control) JobStarted: {'identifier': 'auv_control'}
+[0.094710] (auv_control) JobProgress: {'identifier': 'auv_control', 'progress': 'cmake'}
+[0.095171] (auv_control) JobProgress: {'identifier': 'auv_control', 'progress': 'build'}
+[0.095497] (auv_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ros_ws/build/auv_control', '--', '-j20', '-l20'], 'cwd': '/mnt/ros_ws/build/auv_control', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/ros_ws/install/thruster_manager/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/auv_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.099819] (-) TimerEvent: {}
+[0.123621] (auv_control) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.130603] (auv_control) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.134381] (auv_control) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_auv_control\n'}
+[0.147237] (simple_launch) StdoutLine: {'line': b'running egg_info\n'}
+[0.147593] (simple_launch) StdoutLine: {'line': b'writing simple_launch.egg-info/PKG-INFO\n'}
+[0.147695] (simple_launch) StdoutLine: {'line': b'writing dependency_links to simple_launch.egg-info/dependency_links.txt\n'}
+[0.147766] (simple_launch) StdoutLine: {'line': b'writing top-level names to simple_launch.egg-info/top_level.txt\n'}
+[0.148639] (simple_launch) StdoutLine: {'line': b"reading manifest file 'simple_launch.egg-info/SOURCES.txt'\n"}
+[0.148919] (simple_launch) StdoutLine: {'line': b"writing manifest file 'simple_launch.egg-info/SOURCES.txt'\n"}
+[0.163431] (simple_launch) StdoutLine: {'line': b'Built target ament_cmake_python_build_simple_launch_egg\n'}
+[0.171065] (simple_launch) CommandEnded: {'returncode': 0}
+[0.171529] (simple_launch) JobProgress: {'identifier': 'simple_launch', 'progress': 'install'}
+[0.171670] (simple_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/ros_ws/build/simple_launch'], 'cwd': '/mnt/ros_ws/build/simple_launch', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/simple_launch'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[0.176530] (simple_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.176676] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example\n'}
+[0.176770] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/example_launch.py\n'}
+[0.176857] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/example_opaque_launch.py\n'}
+[0.176924] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/composition_launch.py\n'}
+[0.176988] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/scoped_opaque_launch.py\n'}
+[0.177061] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/event_example_launch.py\n'}
+[0.177131] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/scoped_launch.py\n'}
+[0.177205] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/composition_opaque_launch.py\n'}
+[0.177258] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/gazebo\n'}
+[0.177310] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/gazebo/demo_world.sdf\n'}
+[0.177363] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/gazebo/gazebo_launch.py\n'}
+[0.177414] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/gazebo/turret_gazebo.rviz\n'}
+[0.177466] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/included_launch.py\n'}
+[0.177528] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/turret.xacro\n'}
+[0.177582] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/turret.rviz\n'}
+[0.177633] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/event_tutorial_launch.py\n'}
+[0.177684] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/condition_launch.py\n'}
+[0.177734] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/example/scoped_included_launch.py\n'}
+[0.177783] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/lib/simple_launch/call_service\n'}
+[0.177833] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/lib/simple_launch/set_parameters\n'}
+[0.177883] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/lib/simple_launch/generate_gz_world\n'}
+[0.177932] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/environment/pythonpath.sh\n'}
+[0.177981] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/environment/pythonpath.dsv\n'}
+[0.178031] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch-1.11.0-py3.10.egg-info\n'}
+[0.178082] (simple_launch) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch-1.11.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.178141] (simple_launch) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch-1.11.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.178192] (simple_launch) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch-1.11.0-py3.10.egg-info/top_level.txt\n'}
+[0.178241] (simple_launch) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch-1.11.0-py3.10.egg-info/PKG-INFO\n'}
+[0.178296] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch\n'}
+[0.178346] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch/simple_substitution.py\n'}
+[0.178397] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch/group.py\n'}
+[0.178447] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch/gazebo.py\n'}
+[0.178510] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch/__init__.py\n'}
+[0.178563] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch/console.py\n'}
+[0.178612] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch/events.py\n'}
+[0.194312] (simple_launch) StdoutLine: {'line': b"Listing '/mnt/ros_ws/install/simple_launch/local/lib/python3.10/dist-packages/simple_launch'...\n"}
+[0.196312] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/ament_index/resource_index/package_run_dependencies/simple_launch\n'}
+[0.196394] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/ament_index/resource_index/parent_prefix_path/simple_launch\n'}
+[0.196476] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/environment/ament_prefix_path.sh\n'}
+[0.196565] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/environment/ament_prefix_path.dsv\n'}
+[0.196617] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/environment/path.sh\n'}
+[0.196666] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/environment/path.dsv\n'}
+[0.196716] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/local_setup.bash\n'}
+[0.196766] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/local_setup.sh\n'}
+[0.196817] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/local_setup.zsh\n'}
+[0.196866] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/local_setup.dsv\n'}
+[0.196916] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/package.dsv\n'}
+[0.196965] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/ament_index/resource_index/packages/simple_launch\n'}
+[0.197014] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/cmake/simple_launchConfig.cmake\n'}
+[0.197064] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/cmake/simple_launchConfig-version.cmake\n'}
+[0.197113] (simple_launch) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/simple_launch/share/simple_launch/package.xml\n'}
+[0.197687] (simple_launch) CommandEnded: {'returncode': 0}
+[0.199906] (-) TimerEvent: {}
+[0.205411] (simple_launch) JobEnded: {'identifier': 'simple_launch', 'rc': 0}
+[0.235344] (auv_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.235619] (auv_control) StdoutLine: {'line': b'creating auv_control.egg-info\n'}
+[0.235704] (auv_control) StdoutLine: {'line': b'writing auv_control.egg-info/PKG-INFO\n'}
+[0.235784] (auv_control) StdoutLine: {'line': b'writing dependency_links to auv_control.egg-info/dependency_links.txt\n'}
+[0.235853] (auv_control) StdoutLine: {'line': b'writing top-level names to auv_control.egg-info/top_level.txt\n'}
+[0.235928] (auv_control) StdoutLine: {'line': b"writing manifest file 'auv_control.egg-info/SOURCES.txt'\n"}
+[0.236664] (auv_control) StdoutLine: {'line': b"reading manifest file 'auv_control.egg-info/SOURCES.txt'\n"}
+[0.236973] (auv_control) StdoutLine: {'line': b"writing manifest file 'auv_control.egg-info/SOURCES.txt'\n"}
+[0.248720] (auv_control) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_auv_control_egg\n'}
+[0.259859] (auv_control) StdoutLine: {'line': b'[  5%] Built target auv_control__cpp\n'}
+[0.264474] (auv_control) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.266348] (auv_control) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.266914] (auv_control) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.274439] (auv_control) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/auv_control__rosidl_generator_c.dir/rosidl_generator_c/auv_control/srv/detail/control__functions.c.o\x1b[0m\n'}
+[0.300003] (-) TimerEvent: {}
+[0.308240] (auv_control) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libauv_control__rosidl_generator_c.so\x1b[0m\n'}
+[0.329931] (auv_control) StdoutLine: {'line': b'[ 17%] Built target auv_control__rosidl_generator_c\n'}
+[0.334760] (auv_control) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.336367] (auv_control) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.336913] (auv_control) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.380996] (auv_control) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/auv_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auv_control/srv/control__type_support.cpp.o\x1b[0m\n'}
+[0.396412] (auv_control) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/auv_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auv_control/srv/detail/control__type_support.cpp.o\x1b[0m\n'}
+[0.400081] (-) TimerEvent: {}
+[0.408765] (auv_control) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/auv_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auv_control/srv/detail/dds_fastrtps/control__type_support.cpp.o\x1b[0m\n'}
+[0.457451] (auv_control) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/auv_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/auv_control/srv/control__type_support.cpp.o\x1b[0m\n'}
+[0.469758] (auv_control) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/auv_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auv_control/srv/detail/control__type_support_c.cpp.o\x1b[0m\n'}
+[0.474196] (auv_control) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/auv_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auv_control/srv/detail/control__type_support.c.o\x1b[0m\n'}
+[0.475344] (auv_control) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libauv_control__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.493525] (auv_control) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C shared library libauv_control__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[0.496294] (auv_control) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libauv_control__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.496469] (auv_control) StdoutLine: {'line': b'[ 48%] Built target auv_control__rosidl_typesupport_c\n'}
+[0.500178] (-) TimerEvent: {}
+[0.510342] (auv_control) StdoutLine: {'line': b'[ 48%] Built target auv_control__rosidl_typesupport_introspection_c\n'}
+[0.520941] (auv_control) StdoutLine: {'line': b'[ 48%] Built target auv_control__rosidl_typesupport_cpp\n'}
+[0.534798] (auv_control) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/control_common.dir/src/controller_io.cpp.o\x1b[0m\n'}
+[0.534961] (auv_control) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/control_common.dir/src/hydrodynamics.cpp.o\x1b[0m\n'}
+[0.558618] (auv_control) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libauv_control__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[0.585563] (auv_control) StdoutLine: {'line': b'[ 56%] Built target auv_control__rosidl_typesupport_introspection_cpp\n'}
+[0.600269] (-) TimerEvent: {}
+[0.602828] (auv_control) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libauv_control__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[0.638422] (auv_control) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libauv_control__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[0.643487] (auv_control) StdoutLine: {'line': b'[ 61%] Built target auv_control__rosidl_typesupport_fastrtps_cpp\n'}
+[0.678930] (auv_control) StdoutLine: {'line': b'[ 61%] Built target auv_control__rosidl_typesupport_fastrtps_c\n'}
+[0.693109] (auv_control) StdoutLine: {'line': b'[ 61%] Built target auv_control\n'}
+[0.700355] (-) TimerEvent: {}
+[0.706170] (auv_control) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[0.800490] (-) TimerEvent: {}
+[0.886503] (auv_control) StdoutLine: {'line': b'[ 64%] Built target auv_control__py\n'}
+[0.900595] (-) TimerEvent: {}
+[0.902528] (auv_control) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/auv_control__rosidl_generator_py.dir/rosidl_generator_py/auv_control/srv/_control_s.c.o\x1b[0m\n'}
+[0.985257] (auv_control) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auv_control/libauv_control__rosidl_generator_py.so\x1b[0m\n'}
+[1.000688] (-) TimerEvent: {}
+[1.013253] (auv_control) StdoutLine: {'line': b'[ 69%] Built target auv_control__rosidl_generator_py\n'}
+[1.027517] (auv_control) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/auv_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auv_control/_auv_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.027774] (auv_control) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/auv_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auv_control/_auv_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.027864] (auv_control) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/auv_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auv_control/_auv_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.077097] (auv_control) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auv_control/auv_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.078283] (auv_control) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auv_control/auv_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.089225] (auv_control) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/auv_control/auv_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.100787] (-) TimerEvent: {}
+[1.102174] (auv_control) StdoutLine: {'line': b'[ 84%] Built target auv_control__rosidl_typesupport_c__pyext\n'}
+[1.102319] (auv_control) StdoutLine: {'line': b'[ 84%] Built target auv_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.109546] (auv_control) StdoutLine: {'line': b'[ 84%] Built target auv_control__rosidl_typesupport_introspection_c__pyext\n'}
+[1.200881] (-) TimerEvent: {}
+[1.301134] (-) TimerEvent: {}
+[1.401390] (-) TimerEvent: {}
+[1.501639] (-) TimerEvent: {}
+[1.602104] (-) TimerEvent: {}
+[1.702323] (-) TimerEvent: {}
+[1.802560] (-) TimerEvent: {}
+[1.902802] (-) TimerEvent: {}
+[2.003043] (-) TimerEvent: {}
+[2.103291] (-) TimerEvent: {}
+[2.203562] (-) TimerEvent: {}
+[2.303807] (-) TimerEvent: {}
+[2.404086] (-) TimerEvent: {}
+[2.504609] (-) TimerEvent: {}
+[2.604970] (-) TimerEvent: {}
+[2.705335] (-) TimerEvent: {}
+[2.805667] (-) TimerEvent: {}
+[2.905912] (-) TimerEvent: {}
+[3.006294] (-) TimerEvent: {}
+[3.106524] (-) TimerEvent: {}
+[3.206790] (-) TimerEvent: {}
+[3.307036] (-) TimerEvent: {}
+[3.407273] (-) TimerEvent: {}
+[3.507530] (-) TimerEvent: {}
+[3.607754] (-) TimerEvent: {}
+[3.707944] (-) TimerEvent: {}
+[3.808120] (-) TimerEvent: {}
+[3.908317] (-) TimerEvent: {}
+[4.008561] (-) TimerEvent: {}
+[4.108786] (-) TimerEvent: {}
+[4.209025] (-) TimerEvent: {}
+[4.309232] (-) TimerEvent: {}
+[4.409432] (-) TimerEvent: {}
+[4.509659] (-) TimerEvent: {}
+[4.609865] (-) TimerEvent: {}
+[4.710060] (-) TimerEvent: {}
+[4.810255] (-) TimerEvent: {}
+[4.910449] (-) TimerEvent: {}
+[5.010648] (-) TimerEvent: {}
+[5.110839] (-) TimerEvent: {}
+[5.211048] (-) TimerEvent: {}
+[5.311242] (-) TimerEvent: {}
+[5.411438] (-) TimerEvent: {}
+[5.511639] (-) TimerEvent: {}
+[5.611830] (-) TimerEvent: {}
+[5.712028] (-) TimerEvent: {}
+[5.812224] (-) TimerEvent: {}
+[5.912420] (-) TimerEvent: {}
+[6.012615] (-) TimerEvent: {}
+[6.112815] (-) TimerEvent: {}
+[6.213013] (-) TimerEvent: {}
+[6.313210] (-) TimerEvent: {}
+[6.413402] (-) TimerEvent: {}
+[6.513617] (-) TimerEvent: {}
+[6.613817] (-) TimerEvent: {}
+[6.714025] (-) TimerEvent: {}
+[6.814221] (-) TimerEvent: {}
+[6.914405] (-) TimerEvent: {}
+[7.014591] (-) TimerEvent: {}
+[7.114780] (-) TimerEvent: {}
+[7.214969] (-) TimerEvent: {}
+[7.315174] (-) TimerEvent: {}
+[7.415394] (-) TimerEvent: {}
+[7.515582] (-) TimerEvent: {}
+[7.615771] (-) TimerEvent: {}
+[7.715956] (-) TimerEvent: {}
+[7.816137] (-) TimerEvent: {}
+[7.916319] (-) TimerEvent: {}
+[8.016531] (-) TimerEvent: {}
+[8.116719] (-) TimerEvent: {}
+[8.216900] (-) TimerEvent: {}
+[8.317079] (-) TimerEvent: {}
+[8.417258] (-) TimerEvent: {}
+[8.517475] (-) TimerEvent: {}
+[8.617656] (-) TimerEvent: {}
+[8.717837] (-) TimerEvent: {}
+[8.818034] (-) TimerEvent: {}
+[8.918238] (-) TimerEvent: {}
+[9.018419] (-) TimerEvent: {}
+[9.118605] (-) TimerEvent: {}
+[9.218788] (-) TimerEvent: {}
+[9.319010] (-) TimerEvent: {}
+[9.419192] (-) TimerEvent: {}
+[9.519378] (-) TimerEvent: {}
+[9.619568] (-) TimerEvent: {}
+[9.719749] (-) TimerEvent: {}
+[9.819938] (-) TimerEvent: {}
+[9.920120] (-) TimerEvent: {}
+[10.020302] (-) TimerEvent: {}
+[10.120490] (-) TimerEvent: {}
+[10.220680] (-) TimerEvent: {}
+[10.320867] (-) TimerEvent: {}
+[10.421049] (-) TimerEvent: {}
+[10.521232] (-) TimerEvent: {}
+[10.621413] (-) TimerEvent: {}
+[10.721628] (-) TimerEvent: {}
+[10.821810] (-) TimerEvent: {}
+[10.921996] (-) TimerEvent: {}
+[11.022213] (-) TimerEvent: {}
+[11.122428] (-) TimerEvent: {}
+[11.222636] (-) TimerEvent: {}
+[11.322835] (-) TimerEvent: {}
+[11.423029] (-) TimerEvent: {}
+[11.523230] (-) TimerEvent: {}
+[11.623425] (-) TimerEvent: {}
+[11.723622] (-) TimerEvent: {}
+[11.799348] (auv_control) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libcontrol_common.so\x1b[0m\n'}
+[11.823710] (-) TimerEvent: {}
+[11.923899] (-) TimerEvent: {}
+[12.024110] (-) TimerEvent: {}
+[12.124319] (-) TimerEvent: {}
+[12.224537] (-) TimerEvent: {}
+[12.324796] (-) TimerEvent: {}
+[12.425033] (-) TimerEvent: {}
+[12.525252] (-) TimerEvent: {}
+[12.625501] (-) TimerEvent: {}
+[12.725696] (-) TimerEvent: {}
+[12.782843] (auv_control) StdoutLine: {'line': b'[ 87%] Built target control_common\n'}
+[12.793940] (auv_control) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object CMakeFiles/cascaded_pid.dir/src/cascaded_pid.cpp.o\x1b[0m\n'}
+[12.794916] (auv_control) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/cascaded_pid.dir/src/pos_vel_pid.cpp.o\x1b[0m\n'}
+[12.796042] (auv_control) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/sliding_mode.dir/src/sliding_mode.cpp.o\x1b[0m\n'}
+[12.825767] (-) TimerEvent: {}
+[12.925932] (-) TimerEvent: {}
+[13.026122] (-) TimerEvent: {}
+[13.126347] (-) TimerEvent: {}
+[13.226604] (-) TimerEvent: {}
+[13.326837] (-) TimerEvent: {}
+[13.427046] (-) TimerEvent: {}
+[13.527279] (-) TimerEvent: {}
+[13.627483] (-) TimerEvent: {}
+[13.727677] (-) TimerEvent: {}
+[13.827859] (-) TimerEvent: {}
+[13.928064] (-) TimerEvent: {}
+[14.028257] (-) TimerEvent: {}
+[14.128541] (-) TimerEvent: {}
+[14.228771] (-) TimerEvent: {}
+[14.328951] (-) TimerEvent: {}
+[14.429112] (-) TimerEvent: {}
+[14.529403] (-) TimerEvent: {}
+[14.629632] (-) TimerEvent: {}
+[14.729850] (-) TimerEvent: {}
+[14.830065] (-) TimerEvent: {}
+[14.930250] (-) TimerEvent: {}
+[14.992266] (auv_control) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable sliding_mode\x1b[0m\n'}
+[14.992997] (auv_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cascaded_pid\x1b[0m\n'}
+[15.030335] (-) TimerEvent: {}
+[15.130552] (-) TimerEvent: {}
+[15.230755] (-) TimerEvent: {}
+[15.330972] (-) TimerEvent: {}
+[15.386932] (auv_control) StdoutLine: {'line': b'[100%] Built target sliding_mode\n'}
+[15.431096] (-) TimerEvent: {}
+[15.446654] (auv_control) StdoutLine: {'line': b'[100%] Built target cascaded_pid\n'}
+[15.453343] (auv_control) CommandEnded: {'returncode': 0}
+[15.454000] (auv_control) JobProgress: {'identifier': 'auv_control', 'progress': 'install'}
+[15.454060] (auv_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/ros_ws/build/auv_control'], 'cwd': '/mnt/ros_ws/build/auv_control', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/ros_ws/install/thruster_manager/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/auv_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[15.457756] (auv_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.457842] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/rosidl_interfaces/auv_control\n'}
+[15.457945] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control\n'}
+[15.458079] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv\n'}
+[15.458171] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail\n'}
+[15.458260] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__functions.h\n'}
+[15.458346] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.h\n'}
+[15.458423] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__struct.h\n'}
+[15.458507] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__functions.c\n'}
+[15.458587] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/control.h\n'}
+[15.458652] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg\n'}
+[15.458732] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.458815] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/library_path.sh\n'}
+[15.458889] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/library_path.dsv\n'}
+[15.458964] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_generator_c.so\n'}
+[15.459025] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_generator_c.so" to ""\n'}
+[15.459109] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control\n'}
+[15.459183] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv\n'}
+[15.459254] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail\n'}
+[15.459335] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_fastrtps_c.h\n'}
+[15.459418] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg\n'}
+[15.459521] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.459613] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_fastrtps_c.so\n'}
+[15.459690] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.459755] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control\n'}
+[15.459836] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv\n'}
+[15.459925] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/control.hpp\n'}
+[15.459987] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail\n'}
+[15.460060] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__traits.hpp\n'}
+[15.460141] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__struct.hpp\n'}
+[15.460203] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__builder.hpp\n'}
+[15.460276] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.hpp\n'}
+[15.460341] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg\n'}
+[15.460406] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.460494] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control\n'}
+[15.460568] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv\n'}
+[15.460633] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail\n'}
+[15.460699] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/dds_fastrtps\n'}
+[15.460795] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.460883] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg\n'}
+[15.460961] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.461027] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.461108] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.461194] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control\n'}
+[15.461262] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv\n'}
+[15.461351] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail\n'}
+[15.461442] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.c\n'}
+[15.461535] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_introspection_c.h\n'}
+[15.461627] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg\n'}
+[15.461714] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.461806] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_introspection_c.so\n'}
+[15.461891] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.461987] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_c.so\n'}
+[15.462082] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_c.so" to ""\n'}
+[15.462179] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control\n'}
+[15.462266] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv\n'}
+[15.462366] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail\n'}
+[15.462548] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.462813] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.cpp\n'}
+[15.462926] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_introspection_cpp.so\n'}
+[15.462973] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.463009] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_cpp.so\n'}
+[15.463041] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_cpp.so" to ""\n'}
+[15.463071] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/pythonpath.sh\n'}
+[15.463102] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/pythonpath.dsv\n'}
+[15.463133] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info\n'}
+[15.463174] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[15.463206] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[15.463238] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[15.463267] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[15.463296] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control\n'}
+[15.463328] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/_auv_control_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.463357] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/_auv_control_s.ep.rosidl_typesupport_c.c\n'}
+[15.463388] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv\n'}
+[15.463419] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/_control.py\n'}
+[15.463453] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/__init__.py\n'}
+[15.463502] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/_control_s.c\n'}
+[15.463534] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/_auv_control_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.463563] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.463593] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/__init__.py\n'}
+[15.463621] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.463649] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/libauv_control__rosidl_generator_py.so\n'}
+[15.463679] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.479343] (auv_control) StdoutLine: {'line': b"Listing '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control'...\n"}
+[15.479415] (auv_control) StdoutLine: {'line': b"Compiling '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/__init__.py'...\n"}
+[15.479448] (auv_control) StdoutLine: {'line': b"Listing '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv'...\n"}
+[15.479474] (auv_control) StdoutLine: {'line': b"Compiling '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/__init__.py'...\n"}
+[15.479496] (auv_control) StdoutLine: {'line': b"Compiling '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/_control.py'...\n"}
+[15.481383] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.481473] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.481546] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.481656] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.481721] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.481833] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.481864] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_generator_py.so\n'}
+[15.481970] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_generator_py.so" to ""\n'}
+[15.482009] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control.idl\n'}
+[15.482055] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control.srv\n'}
+[15.482098] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control_Request.msg\n'}
+[15.482143] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control_Response.msg\n'}
+[15.482192] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/libcontrol_common.so\n'}
+[15.493702] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/libcontrol_common.so" to ""\n'}
+[15.493761] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/auv_control/cascaded_pid\n'}
+[15.494033] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/auv_control/cascaded_pid" to ""\n'}
+[15.494066] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/lib/auv_control/sliding_mode\n'}
+[15.494332] (auv_control) StdoutLine: {'line': b'-- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/auv_control/sliding_mode" to ""\n'}
+[15.494359] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/launch\n'}
+[15.494387] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/launch/pose_setpoint.yaml\n'}
+[15.494420] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/launch/vel_setpoint.yaml\n'}
+[15.494456] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/launch/wrench_launch.py\n'}
+[15.494493] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/launch/wrench.yaml\n'}
+[15.494527] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/launch/pose_launch.py\n'}
+[15.494570] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include\n'}
+[15.494606] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control\n'}
+[15.494628] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/cascaded_pid.h\n'}
+[15.494658] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/controller_io.h\n'}
+[15.494684] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/service_sync.h\n'}
+[15.494711] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/butterworth.h\n'}
+[15.494745] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/eigen_typedefs.h\n'}
+[15.494788] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/pos_vel_pid.h\n'}
+[15.494823] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/controller_gains.h\n'}
+[15.494859] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/hydrodynamics.h\n'}
+[15.494900] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control\n'}
+[15.494934] (auv_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control\n'}
+[15.494955] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/cascaded_pid.h\n'}
+[15.494982] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/controller_io.h\n'}
+[15.495017] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/service_sync.h\n'}
+[15.495047] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/butterworth.h\n'}
+[15.495076] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/eigen_typedefs.h\n'}
+[15.495104] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/pos_vel_pid.h\n'}
+[15.495135] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/controller_gains.h\n'}
+[15.495170] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/hydrodynamics.h\n'}
+[15.495231] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/package_run_dependencies/auv_control\n'}
+[15.495293] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/parent_prefix_path/auv_control\n'}
+[15.495347] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/ament_prefix_path.sh\n'}
+[15.495402] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/ament_prefix_path.dsv\n'}
+[15.495452] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/path.sh\n'}
+[15.495505] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/environment/path.dsv\n'}
+[15.495552] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.bash\n'}
+[15.495600] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.sh\n'}
+[15.495650] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.zsh\n'}
+[15.495695] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.dsv\n'}
+[15.495742] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/package.dsv\n'}
+[15.495804] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/packages/auv_control\n'}
+[15.495878] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_cExport.cmake\n'}
+[15.495932] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.495985] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.496034] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.496085] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_cppExport.cmake\n'}
+[15.496135] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.496183] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.496235] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.496285] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.496336] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cExport.cmake\n'}
+[15.496384] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.496436] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.496487] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.496538] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cppExport.cmake\n'}
+[15.496585] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.496636] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_pyExport.cmake\n'}
+[15.496682] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.496727] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/rosidl_cmake-extras.cmake\n'}
+[15.496771] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.496817] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.496863] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.496907] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.496956] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.497004] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.497049] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_controlConfig.cmake\n'}
+[15.497086] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_controlConfig-version.cmake\n'}
+[15.497130] (auv_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/package.xml\n'}
+[15.498516] (auv_control) CommandEnded: {'returncode': 0}
+[15.504953] (auv_control) JobEnded: {'identifier': 'auv_control', 'rc': 0}
+[15.505360] (bluerov2_control) JobStarted: {'identifier': 'bluerov2_control'}
+[15.511294] (bluerov2_control) JobProgress: {'identifier': 'bluerov2_control', 'progress': 'cmake'}
+[15.511576] (bluerov2_control) JobProgress: {'identifier': 'bluerov2_control', 'progress': 'build'}
+[15.511741] (bluerov2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/ros_ws/build/bluerov2_control', '--', '-j20', '-l20'], 'cwd': '/mnt/ros_ws/build/bluerov2_control', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/ros_ws/install/auv_control/lib:/mnt/ros_ws/install/thruster_manager/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/bluerov2_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[15.531165] (-) TimerEvent: {}
+[15.531852] (bluerov2_control) CommandEnded: {'returncode': 0}
+[15.532149] (bluerov2_control) JobProgress: {'identifier': 'bluerov2_control', 'progress': 'install'}
+[15.532330] (bluerov2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/ros_ws/build/bluerov2_control'], 'cwd': '/mnt/ros_ws/build/bluerov2_control', 'env': OrderedDict([('GZ_SIM_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('HOSTNAME', 'e53296e62336'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/mnt/ros_ws/install/auv_control/lib:/mnt/ros_ws/install/thruster_manager/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/mnt/ros_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/mnt/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble'), ('IGN_GAZEBO_RESOURCE_PATH', '/mnt/ros_ws/install/bluerov2_description/share'), ('PWD', '/mnt/ros_ws/build/bluerov2_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/bluerov2_control:/opt/ros/humble')]), 'shell': False}
+[15.537549] (bluerov2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.537699] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/launch\n'}
+[15.537767] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/launch/wrench_launch.py\n'}
+[15.537828] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/launch/cascaded_pids_launch.py\n'}
+[15.537887] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/launch/sliding_mode_launch.py\n'}
+[15.537945] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/launch/rviz_launch.py\n'}
+[15.538002] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config\n'}
+[15.538077] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config/manual.yaml\n'}
+[15.538192] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config/sliding_mode.yaml\n'}
+[15.538233] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config/bluerov2.rviz\n'}
+[15.538271] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config/anchors.yaml\n'}
+[15.538312] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config/thruster_manager.yaml\n'}
+[15.538353] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config/cascaded_pid.yaml\n'}
+[15.538392] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/config/tilt.yaml\n'}
+[15.538430] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/ament_index/resource_index/package_run_dependencies/bluerov2_control\n'}
+[15.538469] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/ament_index/resource_index/parent_prefix_path/bluerov2_control\n'}
+[15.538516] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/environment/ament_prefix_path.sh\n'}
+[15.538554] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/environment/ament_prefix_path.dsv\n'}
+[15.538595] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/environment/path.sh\n'}
+[15.538634] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/environment/path.dsv\n'}
+[15.538697] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/local_setup.bash\n'}
+[15.538734] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/local_setup.sh\n'}
+[15.538773] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/local_setup.zsh\n'}
+[15.538811] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/local_setup.dsv\n'}
+[15.538849] (bluerov2_control) StdoutLine: {'line': b'-- Installing: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/package.dsv\n'}
+[15.538884] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/ament_index/resource_index/packages/bluerov2_control\n'}
+[15.538920] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/cmake/bluerov2_controlConfig.cmake\n'}
+[15.538956] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/cmake/bluerov2_controlConfig-version.cmake\n'}
+[15.538992] (bluerov2_control) StdoutLine: {'line': b'-- Up-to-date: /mnt/ros_ws/install/bluerov2_control/share/bluerov2_control/package.xml\n'}
+[15.539770] (bluerov2_control) CommandEnded: {'returncode': 0}
+[15.548438] (bluerov2_control) JobEnded: {'identifier': 'bluerov2_control', 'rc': 0}
+[15.549236] (-) EventReactorShutdown: {}
