@@ -16,13 +16,20 @@ class DataLogger(Node):
             PoseStamped, '/bluerov2/cmd_pose', self.cmd_callback, qos)
         self.recording = False
         self.start_time = None
-        self.log_file = os.path.join(os.getcwd(), 'rov_trajectory.csv')
+
+
+        # 申明参数，用于区分不同算法记录数据的 CSV 文件路径
+        self.declare_parameter('control_algo', 'pid')
+        control_algo = self.get_parameter('control_algo').value
+        # 配置日志文件名称根据控制算法
+        self.log_file = os.path.join(os.getcwd(), f'rov_trajectory_{control_algo}.csv')
         # 写入 CSV 表头
         with open(self.log_file, mode='w', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(['source', 'time_since_cmd', 'x', 'y', 'z'])
         self.get_logger().info(f'Data Logger started, log file: {self.log_file}')
 
+    
     def cmd_callback(self, msg: PoseStamped):
         # 仅在第一次触发时开始记录，后续触发忽略
         if not self.recording:
