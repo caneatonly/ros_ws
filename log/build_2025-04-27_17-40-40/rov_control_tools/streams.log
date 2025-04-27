@@ -1,0 +1,26 @@
+[0.233s] Invoking command in '/mnt/ros_ws/src/rov_control_tools': PYTHONPATH=/mnt/ros_ws/build/rov_control_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros_ws/install/rov_control_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rov_control_tools build --build-base /mnt/ros_ws/build/rov_control_tools/build install --record /mnt/ros_ws/build/rov_control_tools/install.log --single-version-externally-managed install_data
+[0.325s] running egg_info
+[0.325s] writing ../../build/rov_control_tools/rov_control_tools.egg-info/PKG-INFO
+[0.325s] writing dependency_links to ../../build/rov_control_tools/rov_control_tools.egg-info/dependency_links.txt
+[0.325s] writing entry points to ../../build/rov_control_tools/rov_control_tools.egg-info/entry_points.txt
+[0.325s] writing requirements to ../../build/rov_control_tools/rov_control_tools.egg-info/requires.txt
+[0.325s] writing top-level names to ../../build/rov_control_tools/rov_control_tools.egg-info/top_level.txt
+[0.326s] reading manifest file '../../build/rov_control_tools/rov_control_tools.egg-info/SOURCES.txt'
+[0.326s] writing manifest file '../../build/rov_control_tools/rov_control_tools.egg-info/SOURCES.txt'
+[0.326s] running build
+[0.326s] running build_py
+[0.326s] running install
+[0.327s] running install_lib
+[0.327s] copying /mnt/ros_ws/build/rov_control_tools/build/lib/rov_control_tools/cmd_publisher_point.py -> /mnt/ros_ws/install/rov_control_tools/lib/python3.10/site-packages/rov_control_tools
+[0.327s] byte-compiling /mnt/ros_ws/install/rov_control_tools/lib/python3.10/site-packages/rov_control_tools/cmd_publisher_point.py to cmd_publisher_point.cpython-310.pyc
+[0.327s] running install_data
+[0.327s] running install_egg_info
+[0.328s] removing '/mnt/ros_ws/install/rov_control_tools/lib/python3.10/site-packages/rov_control_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[0.328s] Copying ../../build/rov_control_tools/rov_control_tools.egg-info to /mnt/ros_ws/install/rov_control_tools/lib/python3.10/site-packages/rov_control_tools-0.0.0-py3.10.egg-info
+[0.329s] running install_scripts
+[0.338s] Installing cmd_publisher_circle script to /mnt/ros_ws/install/rov_control_tools/lib/rov_control_tools
+[0.338s] Installing cmd_publisher_point script to /mnt/ros_ws/install/rov_control_tools/lib/rov_control_tools
+[0.338s] Installing cmd_publisher_start script to /mnt/ros_ws/install/rov_control_tools/lib/rov_control_tools
+[0.338s] Installing data_logger script to /mnt/ros_ws/install/rov_control_tools/lib/rov_control_tools
+[0.338s] writing list of installed files to '/mnt/ros_ws/build/rov_control_tools/install.log'
+[0.348s] Invoked command in '/mnt/ros_ws/src/rov_control_tools' returned '0': PYTHONPATH=/mnt/ros_ws/build/rov_control_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/ros_ws/install/rov_control_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rov_control_tools build --build-base /mnt/ros_ws/build/rov_control_tools/build install --record /mnt/ros_ws/build/rov_control_tools/install.log --single-version-externally-managed install_data

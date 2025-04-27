@@ -1,0 +1,4 @@
+Invoking command in '/mnt/ros_ws/build/thruster_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/thruster_manager -- -j20 -l20
+Invoked command in '/mnt/ros_ws/build/thruster_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/thruster_manager -- -j20 -l20
+Invoking command in '/mnt/ros_ws/build/thruster_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --install /mnt/ros_ws/build/thruster_manager
+Invoked command in '/mnt/ros_ws/build/thruster_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --install /mnt/ros_ws/build/thruster_manager

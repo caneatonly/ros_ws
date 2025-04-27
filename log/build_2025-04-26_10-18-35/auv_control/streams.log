@@ -1,0 +1,200 @@
+[0.007s] Invoking command in '/mnt/ros_ws/build/auv_control': CMAKE_PREFIX_PATH=/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/bluerov2_control:/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/simple_launch:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ros_ws/install/thruster_manager/lib:/mnt/ros_ws/install/auv_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /mnt/ros_ws/build/auv_control -- -j20 -l20
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_generator_c[0m
+[0.039s] [  2%] Built target auv_control__cpp
+[0.041s] [ 10%] Built target auv_control__rosidl_generator_c
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_fastrtps_cpp[0m
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_introspection_cpp[0m
+[0.045s] [ 10%] Built target ament_cmake_python_copy_auv_control
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_cpp[0m
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_fastrtps_c[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_introspection_c[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_c[0m
+[0.052s] [ 17%] Built target auv_control__rosidl_typesupport_introspection_cpp
+[0.053s] [ 25%] Built target auv_control__rosidl_typesupport_fastrtps_c
+[0.054s] [ 33%] Built target auv_control__rosidl_typesupport_fastrtps_cpp
+[0.055s] [ 41%] Built target auv_control__rosidl_typesupport_cpp
+[0.056s] [ 48%] Built target auv_control__rosidl_typesupport_introspection_c
+[0.057s] [ 56%] Built target auv_control__rosidl_typesupport_c
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target control_common[0m
+[0.068s] [ 56%] Built target auv_control
+[0.079s] [ 58%] Built target auv_control__py
+[0.082s] [ 66%] Built target control_common
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_generator_py[0m
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target sliding_mode[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target cascaded_pid[0m
+[0.098s] [ 71%] Built target auv_control__rosidl_generator_py
+[0.101s] [ 76%] Built target sliding_mode
+[0.102s] [ 79%] [32mBuilding CXX object CMakeFiles/cascaded_pid.dir/src/cascaded_pid.cpp.o[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_c__pyext[0m
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_introspection_c__pyext[0m
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target auv_control__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.111s] [ 84%] Built target auv_control__rosidl_typesupport_c__pyext
+[0.112s] [ 89%] Built target auv_control__rosidl_typesupport_introspection_c__pyext
+[0.113s] [ 94%] Built target auv_control__rosidl_typesupport_fastrtps_c__pyext
+[0.180s] running egg_info
+[0.180s] writing auv_control.egg-info/PKG-INFO
+[0.181s] writing dependency_links to auv_control.egg-info/dependency_links.txt
+[0.181s] writing top-level names to auv_control.egg-info/top_level.txt
+[0.182s] reading manifest file 'auv_control.egg-info/SOURCES.txt'
+[0.182s] writing manifest file 'auv_control.egg-info/SOURCES.txt'
+[0.199s] [ 94%] Built target ament_cmake_python_build_auv_control_egg
+[2.775s] [ 97%] [32m[1mLinking CXX executable cascaded_pid[0m
+[3.249s] [100%] Built target cascaded_pid
+[3.255s] Invoked command in '/mnt/ros_ws/build/auv_control' returned '0': CMAKE_PREFIX_PATH=/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/bluerov2_control:/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/simple_launch:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ros_ws/install/thruster_manager/lib:/mnt/ros_ws/install/auv_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /mnt/ros_ws/build/auv_control -- -j20 -l20
+[3.256s] Invoking command in '/mnt/ros_ws/build/auv_control': CMAKE_PREFIX_PATH=/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/bluerov2_control:/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/simple_launch:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ros_ws/install/thruster_manager/lib:/mnt/ros_ws/install/auv_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /mnt/ros_ws/build/auv_control
+[3.260s] -- Install configuration: ""
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/rosidl_interfaces/auv_control
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__functions.h
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.h
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__struct.h
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__functions.c
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/control.h
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_generator_c__visibility_control.h
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/library_path.sh
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/library_path.dsv
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_generator_c.so
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_fastrtps_c.h
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg
+[3.260s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_fastrtps_c.so
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/control.hpp
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__traits.hpp
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__struct.hpp
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__builder.hpp
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.hpp
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/dds_fastrtps
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_fastrtps_cpp.so
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.c
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_introspection_c.h
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_introspection_c.so
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_c.so
+[3.261s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/srv/detail/control__type_support.cpp
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_introspection_cpp.so
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_typesupport_cpp.so
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/pythonpath.sh
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/pythonpath.dsv
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info
+[3.262s] -- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/SOURCES.txt
+[3.262s] -- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/dependency_links.txt
+[3.262s] -- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/top_level.txt
+[3.262s] -- Installing: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control-0.0.1-py3.10.egg-info/PKG-INFO
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/_auv_control_s.ep.rosidl_typesupport_introspection_c.c
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/_auv_control_s.ep.rosidl_typesupport_c.c
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/_control.py
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/__init__.py
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv/_control_s.c
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/_auv_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.262s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.263s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/__init__.py
+[3.263s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.263s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/libauv_control__rosidl_generator_py.so
+[3.263s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.279s] Listing '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control'...
+[3.280s] Listing '/mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/srv'...
+[3.282s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.282s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.283s] -- Up-to-date: /mnt/ros_ws/install/auv_control/local/lib/python3.10/dist-packages/auv_control/auv_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.283s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libauv_control__rosidl_generator_py.so
+[3.283s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control.idl
+[3.283s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control.srv
+[3.283s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control_Request.msg
+[3.283s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/srv/Control_Response.msg
+[3.283s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/libcontrol_common.so
+[3.283s] -- Installing: /mnt/ros_ws/install/auv_control/lib/auv_control/cascaded_pid
+[3.284s] -- Set runtime path of "/mnt/ros_ws/install/auv_control/lib/auv_control/cascaded_pid" to ""
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/lib/auv_control/sliding_mode
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/launch
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/launch/pose_setpoint.yaml
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/launch/vel_setpoint.yaml
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/launch/wrench_launch.py
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/launch/wrench.yaml
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/launch/pose_launch.py
+[3.284s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/cascaded_pid.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/controller_io.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/service_sync.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/butterworth.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/eigen_typedefs.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/pos_vel_pid.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/controller_gains.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/hydrodynamics.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/cascaded_pid.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/controller_io.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/service_sync.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/butterworth.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/eigen_typedefs.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/pos_vel_pid.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/controller_gains.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/include/auv_control/auv_control/hydrodynamics.h
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/package_run_dependencies/auv_control
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/parent_prefix_path/auv_control
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/ament_prefix_path.sh
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/ament_prefix_path.dsv
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/path.sh
+[3.285s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/environment/path.dsv
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.bash
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.sh
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.zsh
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/local_setup.dsv
+[3.286s] -- Installing: /mnt/ros_ws/install/auv_control/share/auv_control/package.dsv
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/ament_index/resource_index/packages/auv_control
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_cExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_cExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_cppExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cppExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cppExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_control__rosidl_typesupport_cppExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_pyExport.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/export_auv_control__rosidl_generator_pyExport-noconfig.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/rosidl_cmake-extras.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_libraries-extras.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_targets-extras.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.286s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_controlConfig.cmake
+[3.287s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/cmake/auv_controlConfig-version.cmake
+[3.287s] -- Up-to-date: /mnt/ros_ws/install/auv_control/share/auv_control/package.xml
+[3.287s] Invoked command in '/mnt/ros_ws/build/auv_control' returned '0': CMAKE_PREFIX_PATH=/mnt/ros_ws/install/thruster_manager:/mnt/ros_ws/install/bluerov2_control:/mnt/ros_ws/install/auv_control:/mnt/ros_ws/install/simple_launch:/mnt/ros_ws/install/pose_to_tf:/mnt/ros_ws/install/bluerov2_description:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble LD_LIBRARY_PATH=/mnt/ros_ws/install/thruster_manager/lib:/mnt/ros_ws/install/auv_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /mnt/ros_ws/build/auv_control

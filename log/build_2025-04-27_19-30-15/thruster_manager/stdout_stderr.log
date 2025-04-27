@@ -1,0 +1,40 @@
+[ 28%] Built target thruster_manager_node
+[ 71%] Built target thruster_manager
+[100%] Built target publish_wrenches
+-- Install configuration: ""
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/thruster_manager_node
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/libthruster_manager.so
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/publish_wrenches
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager_node.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_link.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/model_parser.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager_node.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_link.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/model_parser.h
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.sh
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.dsv
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/package_run_dependencies/thruster_manager
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/parent_prefix_path/thruster_manager
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.sh
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.dsv
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.sh
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.dsv
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.bash
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.sh
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.zsh
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.dsv
+-- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.dsv
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/packages/thruster_manager
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/rclcpp_components/thruster_manager
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig.cmake
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig-version.cmake
+-- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.xml

@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         #加入launch文件
-        ('share/' + package_name + '/launch', ['launch/stepcmd_record_launch.py']),
+        ('share/' + package_name + '/launch', ['launch/cmd_record_launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -22,8 +22,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'cmd_publisher = rov_control_tools.cmd_publisher:main',
+            'cmd_publisher_point = rov_control_tools.cmd_publisher_point:main',
             'data_logger = rov_control_tools.data_logger:main',
+            "cmd_publisher_circle = rov_control_tools.cmd_publisher_circle:main",
+            "cmd_publisher_start = rov_control_tools.cmd_publisher_start:main",
         ],
     },
 )

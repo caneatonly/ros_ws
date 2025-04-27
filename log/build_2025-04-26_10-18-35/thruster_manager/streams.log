@@ -1,0 +1,44 @@
+[0.013s] Invoking command in '/mnt/ros_ws/build/thruster_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/thruster_manager -- -j20 -l20
+[0.135s] [ 28%] Built target thruster_manager_node
+[0.135s] [ 71%] Built target thruster_manager
+[0.135s] [100%] Built target publish_wrenches
+[0.142s] Invoked command in '/mnt/ros_ws/build/thruster_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/thruster_manager -- -j20 -l20
+[0.142s] Invoking command in '/mnt/ros_ws/build/thruster_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --install /mnt/ros_ws/build/thruster_manager
+[0.158s] -- Install configuration: ""
+[0.159s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/thruster_manager_node
+[0.159s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/libthruster_manager.so
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/lib/thruster_manager/publish_wrenches
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager_node.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_link.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/model_parser.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager_node.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_link.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/thruster_manager.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/include/thruster_manager/thruster_manager/model_parser.h
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.sh
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/library_path.dsv
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/package_run_dependencies/thruster_manager
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/parent_prefix_path/thruster_manager
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.sh
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/ament_prefix_path.dsv
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.sh
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/environment/path.dsv
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.bash
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.sh
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.zsh
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/local_setup.dsv
+[0.160s] -- Installing: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.dsv
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/packages/thruster_manager
+[0.160s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/ament_index/resource_index/rclcpp_components/thruster_manager
+[0.161s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[0.161s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.161s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.161s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig.cmake
+[0.161s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/cmake/thruster_managerConfig-version.cmake
+[0.161s] -- Up-to-date: /mnt/ros_ws/install/thruster_manager/share/thruster_manager/package.xml
+[0.178s] Invoked command in '/mnt/ros_ws/build/thruster_manager' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/ros_ws/install/rov_control_tools:/opt/ros/humble /usr/bin/cmake --install /mnt/ros_ws/build/thruster_manager

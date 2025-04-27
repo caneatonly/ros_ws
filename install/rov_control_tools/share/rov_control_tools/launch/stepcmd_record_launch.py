@@ -24,7 +24,7 @@ def generate_launch_description():
             # 启动 CmdPosePublisher 节点（假设该节点无需区分控制算法）
             Node(
                 package='rov_control_tools',
-                executable='cmd_publisher',
-                name='cmd_pose_publisher'
+                executable='cmd_publisher_point',
+                name='cmd_pose_publisher_point'
             )
         ])
