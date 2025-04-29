@@ -1,2 +1,0 @@
-Invoking command in '/mnt/ros_ws/build/auv_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/ros_ws/src/auv_control -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/auv_control
-Invoked command in '/mnt/ros_ws/build/auv_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/ros_ws/src/auv_control -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/auv_control

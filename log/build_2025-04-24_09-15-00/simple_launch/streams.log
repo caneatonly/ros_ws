@@ -1,9 +1,0 @@
-[0.013s] Invoking command in '/mnt/ros_ws/build/simple_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/simple_launch -- -j20 -l20
-[0.054s] Built target ament_cmake_python_copy_simple_launch
-[0.151s] running egg_info
-[0.151s] writing simple_launch.egg-info/PKG-INFO
-[0.151s] writing dependency_links to simple_launch.egg-info/dependency_links.txt
-[0.151s] writing top-level names to simple_launch.egg-info/top_level.txt
-[0.152s] reading manifest file 'simple_launch.egg-info/SOURCES.txt'
-[0.152s] writing manifest file 'simple_launch.egg-info/SOURCES.txt'
-[0.166s] Built target ament_cmake_python_build_simple_launch_egg

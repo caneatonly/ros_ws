@@ -9,9 +9,6 @@ class CmdPosePublisher(Node):
         super().__init__('cmd_pose_publisher')
         qos = QoSProfile(depth=10)
         self.publisher_ = self.create_publisher(PoseStamped, '/bluerov2/cmd_pose', qos)
-        # 声明 target_depth 参数（默认可设为 -5.0 或其他合适值）
-        self.declare_parameter('target_depth', -5.0)
-        self.target_depth = self.get_parameter('target_depth').value
         # 定时器会在5秒后首次触发
         self.timer = self.create_timer(0.1, self.publish_pose)
 
@@ -20,9 +17,9 @@ class CmdPosePublisher(Node):
         msg.header.stamp = self.get_clock().now().to_msg()  # 使用仿真时间，如果 use_sim_time true
         msg.header.frame_id = "world"  # 设置坐标系为世界坐标系
         # 设置目标位姿，可按实际需求进行配置
-        msg.pose.position.x = 0.0
+        msg.pose.position.x = 20.0
         msg.pose.position.y = 0.0
-        msg.pose.position.z = self.target_depth
+        msg.pose.position.z = 0.0
         msg.pose.orientation.w = 1.0
         msg.pose.orientation.x = 0.0
         msg.pose.orientation.y = 0.0

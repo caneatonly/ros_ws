@@ -1,6 +1,0 @@
-Invoking command in '/mnt/ros_ws/build/bluerov2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/ros_ws/src/bluerov2_control -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/bluerov2_control
-Invoked command in '/mnt/ros_ws/build/bluerov2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /mnt/ros_ws/src/bluerov2_control -DCMAKE_INSTALL_PREFIX=/mnt/ros_ws/install/bluerov2_control
-Invoking command in '/mnt/ros_ws/build/bluerov2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/bluerov2_control -- -j20 -l20
-Invoked command in '/mnt/ros_ws/build/bluerov2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /mnt/ros_ws/build/bluerov2_control -- -j20 -l20
-Invoking command in '/mnt/ros_ws/build/bluerov2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/ros_ws/build/bluerov2_control
-Invoked command in '/mnt/ros_ws/build/bluerov2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /mnt/ros_ws/build/bluerov2_control
