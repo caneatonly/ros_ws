@@ -4,5 +4,3 @@ auv_control.egg-info/PKG-INFO
 auv_control.egg-info/SOURCES.txt
 auv_control.egg-info/dependency_links.txt
 auv_control.egg-info/top_level.txt
-auv_control/srv/__init__.py
-auv_control/srv/_control.py

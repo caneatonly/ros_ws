@@ -1,0 +1,12 @@
+[submodule "src/auv_control"]
+	path = src/auv_control
+	url = https://github.com/CentraleNantesROV/auv_control.git
+[submodule "src/pose_to_tf"]
+	path = src/pose_to_tf
+	url = https://github.com/oKermorgant/pose_to_tf.git
+[submodule "src/src/thruster_manager"]
+	path = src/src/thruster_manager
+	url = https://github.com/CentraleNantesROV/thruster_manager.git
+[submodule "src/thruster_manager"]
+	path = src/thruster_manager
+	url = https://github.com/CentraleNantesROV/thruster_manager.git
